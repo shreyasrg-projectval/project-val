@@ -1,0 +1,105 @@
+.jua-regular {
+    font-family: "Jua", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+body {
+    background-color: #FADADD;
+    font-family: "Jua", serif;
+    color: white;
+    display: flex;
+    font-size:xx-large;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 150;
+    text-align: center;
+}
+#container {
+    position: relative;
+}
+#question {
+    display: flexbox;
+    position: relative;
+    justify-content: space-between;
+    height: 30vh;
+    align-items: center;
+    font-size: 2em;
+    text-shadow: 
+        rgba(255, 183, 197, 1) -5px 5px,  /* Soft pink color with opacity */
+        rgba(255, 183, 197, 0.5) -10px 10px;
+}
+#greeting {
+    margin-right: 40px;
+}
+#willYou  {
+    margin-left: 40px;
+}
+#beMyValentine {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+#options {
+    margin-top: 20px;
+    text-align: center;
+}
+button {
+    background-color: #ffb7c5;
+    font-family: "Jua", serif;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 25px;
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 
+        rgba(255, 183, 197, 0.6) -5px 5px;
+    transition: 
+        transform 0.2s ease-in-out; /* Smooth transition for both shadow and movement */
+
+}
+
+button:active {
+    transform: translate(-5px, 5px);
+    box-shadow: rgba(255, 183, 197, 0.8) 0px 0px; /* Deeper shadow on click */
+}
+
+button:hover {
+    background-color: #FF2A00;
+}
+#credits {
+    position: fixed; 
+    color: white;
+    bottom: 10px;   
+    right: 10px;   
+    font-family: "Jua", serif;
+    text-shadow: 
+    rgba(255, 183, 197, 1) -3px 3px,  /* Soft pink color with opacity */
+    rgba(255, 183, 197, 0.5) -5px 5px;
+    font-size: 3cqh;
+    z-index: 100;   
+}
+#credits p {
+    margin: 0;        /* Remove any default margin */
+}
+#response {
+    margin-top: 20px;
+    font-size: 2em;
+    text-shadow: 
+    rgba(255, 183, 197, 1) -5px 5px,  /* Soft pink color with opacity */
+    rgba(255, 183, 197, 0.5) -10px 10px;
+}
+.gif-size {
+    width: 210px;
+    height: auto;
+}
+#stickers {
+    margin-top: 20px;
+}
+
+button:focus {
+    outline: none;
+}
